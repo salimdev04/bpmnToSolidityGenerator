@@ -1,9 +1,5 @@
 grammar BpmnSimpleTask;
 
-@header {
-    package com.example.bpmn;
-}
-
 process     :   'process' ID '{' element* '}';
 element     :   task;
 task        :   'task' ID   ';';
