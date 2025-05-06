@@ -1,5 +1,7 @@
 grammar BpmnSimpleTask;
 
+options { visitor = true; }
+
 process     :   'process' ID '{' element* '}';
 element     :   task;
 task        :   'task' ID   ';';
