@@ -29,7 +29,6 @@ Ce projet est une preuve de concept permettant de **générer automatiquement du
 
 ## 📁 Structure du projet
 
-```
 .
 ├── src/
 │   ├── main/
@@ -40,7 +39,6 @@ Ce projet est une preuve de concept permettant de **générer automatiquement du
 ├── LoanApproval.sol             # Smart contract généré automatiquement
 ├── build.gradle
 └── README.md
-```
 
 ---
 
